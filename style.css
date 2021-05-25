@@ -240,7 +240,7 @@
   .navbar{
       display: flex;
       justify-content: end;
-      margin:auto;
+      /* margin:auto; */
       font-family: arial,sans-serif;
   }
 
