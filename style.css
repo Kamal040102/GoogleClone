@@ -258,27 +258,29 @@
       color: black;
   }
 
-  .nav-item:hover{
-      text-decoration: underline black solid 1px;
-  }
-
   .navbar .nav-list .nav-item a{
     text-decoration: none;
     color: black;
   }
 
-  .nav-div{
-      width: 16.5%;
+  .navbar .nav-list .nav-item a:hover{
+    text-decoration: underline black solid 1px;
   }
 
-  .nav-item-img img{
-      margin-top: 0px !important;
-      padding-top: 0px !important;
-      margin: 5px;
-      padding: 5px;
-      width: 35px;
-      color: black;
-      border-radius: 50%;
+  .nav-div{
+      width: 21%;
+  }
+
+  #signin-btn a{
+    padding:10px 25px;
+    color:white !important;
+    background-color: #1a73e8;
+    border-radius:5px;
+  }
+
+  #signin-btn a:hover{
+    background-color: #2b7de9;
+    text-decoration: none !important;
   }
 
   .body{
